@@ -53,7 +53,7 @@ from sklearn.metrics import confusion_matrix
 cm=confusion_matrix(sent_test,sent_pred)
 
 
-"""with open('classifier.pickle','wb') as f:
+with open('classifier.pickle','wb') as f:
     pickle.dump(classifier,f)
 
 with open('tfidfmodel.pickle','wb') as f:
@@ -68,7 +68,7 @@ with open('tfidfmodel.pickle','rb') as f:
 sample=["you are a good looking boy"]
 result=tfidf.transform(sample).toarray()
 
-print(clf.predict(sample))"""
+print(clf.predict(result))
 
 
 
